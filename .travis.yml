@@ -1,0 +1,9 @@
+sudo: false
+dist: trusty
+language: python
+install:
+  - pip install tox
+script:
+  - make lint 
+notifications:
+  email: false
