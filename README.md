@@ -9,8 +9,7 @@ To create a charm layer using this base layer, you need only include it in
 a `layer.yaml` file:
 
 ```yaml
-include:
-  - 'layer:slurm'
+include: ['layer:slurm']
 ```
 
 # Reactive States
