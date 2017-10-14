@@ -1,9 +1,9 @@
-name: layer-slurm
-summary: Slurm Base Layer
+name: slurm
+summary: Base layer for Slurm
 maintainer: 
   - Sandor Zeestraten <sandor.zeestraten@ntnu.no>
 description: |
-  The base layer for Slurm charms.
+  Base layer for Slurm charms.
 tags:
   - slurm
 series:
