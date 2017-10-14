@@ -1,5 +1,5 @@
 # Overview
-[![Travis](https://img.shields.io/travis/hunt-genes/layer-slurm.svg)]() [![license](https://img.shields.io/github/license/hunt-genes/layer-slurm.svg)](./copyright)
+[![Travis](https://travis-ci.org/hunt-genes/layer-slurm.svg?branch=master)](https://travis-ci.org/hunt-genes/layer-slurm) [![license](https://img.shields.io/github/license/hunt-genes/layer-slurm.svg)](./copyright)
 
 This layer provides the base Slurm install for Slurm charms.
 
