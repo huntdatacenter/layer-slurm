@@ -1,6 +1,6 @@
 # TARGETS
 lint: clean ## Run linter
-	tox -e pep8
+	tox -e lint
 
 clean: ## Remove .tox
 	rm -rf .tox/
@@ -14,7 +14,7 @@ help:
 .SILENT:
 # Use one shell for all commands in a target recipe
 .ONESHELL:
-# Set phony targets
-.PHONY: help
+# Set default goal
+.DEFAULT_GOAL := help
 # Use bash shell in Make instead of sh 
 SHELL=/bin/bash

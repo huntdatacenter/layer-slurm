@@ -3,9 +3,12 @@ import os
 from charmhelpers.core.host import mkdir
 from charmhelpers.core.templating import render
 
+SLURMD_SERVICE = 'slurmd'
+SLURMCTLD_SERVICE = 'slurmctld'
 SLURM_CONFIG_TEMPLATE = 'slurm.conf'
 SLURM_CONFIG_PATH = '/etc/slurm-llnl/slurm.conf'
 
+MUNGE_SERVICE = 'munge'
 MUNGE_KEY_TEMPLATE = 'munge.key'
 MUNGE_KEY_PATH = '/etc/munge/munge.key'
 
